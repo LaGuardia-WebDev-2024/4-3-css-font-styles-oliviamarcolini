@@ -5,13 +5,21 @@
   <meta charset="utf-8">
   <title>Challenge: Famous font formats</title>
   <style>
-    .declaration {
-
+    
+    body{   text-align: center; 
+    }
+    
+    .declaration {font-weight: bold; 
     }
 
-    .quote {
-      
+    .quote {font-style: italic; 
+      line-height: 1.5em;
+      font-family: cursive;
     }
+    
+    #batman {text-decoration: underline;
+    }
+ 
   </style>
 </head>
 
@@ -19,7 +27,8 @@
 
   <h2>Famous quotes</h2>
   <p class="quote">
-    "My mama always said life was like a box of chocolates. You never know what you're gonna get.".
+    "My mama always said life was like a box of chocolates. <br>
+    You never know what you're gonna get."
     <br> - Forrest Gump
   </p>
 
@@ -31,7 +40,7 @@
   <h2>Famous declarations</h2>
 
   <p class="declaration">
-    I'M BATMAN.
+    I'M <strong id="batman">BATMAN</strong>.
   </p>
 
   <p class="declaration">
